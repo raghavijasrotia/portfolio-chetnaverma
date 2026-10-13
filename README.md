@@ -55,7 +55,7 @@ npx next dev -p 7777
 
 ### 4. Open in Browser
 - **Public Portfolio:** [http://localhost:7777](http://localhost:7777)
-- **Admin CMS Dashboard:** [http://localhost:7777/rj-admin-portfolio](http://localhost:7777/rj-admin-portfolio)
+- **Admin CMS Dashboard:** [http://localhost:7777/chetna-admin-portfolio](http://localhost:7777/chetna-admin-portfolio)
   - **Username:** `admin`
   - **Password:** `password`
 
@@ -141,7 +141,7 @@ In Vercel **Project Settings → Environment Variables**, ensure the following k
 ### Step 6: Deploy & Verify
 1. Click **Deploy** in Vercel.
 2. Once the build finishes, open your live URL (e.g. `https://portfolio-chetnaverma.vercel.app`).
-3. Visit the Admin Panel at `/rj-admin-portfolio` on your live domain.
+3. Visit the Admin Panel at `/chetna-admin-portfolio` on your live domain.
 4. Log in using your `ADMIN_USERNAME` and `ADMIN_PASSWORD`.
 5. Test saving a change in the Profile or Education section. With Upstash Redis connected, your changes will persist permanently!
 
@@ -164,7 +164,7 @@ In Vercel **Project Settings → Environment Variables**, ensure the following k
 portfolio-chetnaverma/
 ├── app/
 │   ├── api/                     # Serverless API routes (auth, data saving, uploads)
-│   ├── rj-admin-portfolio/      # Secure Advocate CMS Admin Panel
+│   ├── chetna-admin-portfolio/  # Secure Advocate CMS Admin Panel
 │   ├── globals.css              # Tailwind v4 theme, emerald/spruce tokens & glass styles
 │   ├── layout.tsx               # Root layout with legal parchment pattern & fonts
 │   ├── page.tsx                 # Public portfolio homepage

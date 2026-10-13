@@ -10,18 +10,18 @@ import {
 import { useState, useEffect } from "react";
 
 const navItems = [
-  { name: "Dashboard", href: "/rj-admin-portfolio", icon: LayoutDashboard, exact: true },
-  { name: "Profile", href: "/rj-admin-portfolio/profile", icon: User },
-  { name: "Resume / CV", href: "/rj-admin-portfolio/resume", icon: FileText },
-  { name: "Chamber Experience", href: "/rj-admin-portfolio/experience", icon: Briefcase },
-  { name: "Legal Skills", href: "/rj-admin-portfolio/skills", icon: Scale },
-  { name: "Moot Courts & Papers", href: "/rj-admin-portfolio/projects", icon: FolderGit2 },
-  { name: "Certifications", href: "/rj-admin-portfolio/certifications", icon: Award },
-  { name: "Education", href: "/rj-admin-portfolio/education", icon: GraduationCap },
-  { name: "Social Links", href: "/rj-admin-portfolio/social", icon: LinkIcon },
-  { name: "Contact", href: "/rj-admin-portfolio/contact", icon: Mail },
-  { name: "Sections", href: "/rj-admin-portfolio/sections", icon: Layers },
-  { name: "SEO", href: "/rj-admin-portfolio/seo", icon: Search },
+  { name: "Dashboard", href: "/chetna-admin-portfolio", icon: LayoutDashboard, exact: true },
+  { name: "Profile", href: "/chetna-admin-portfolio/profile", icon: User },
+  { name: "Resume / CV", href: "/chetna-admin-portfolio/resume", icon: FileText },
+  { name: "Chamber Experience", href: "/chetna-admin-portfolio/experience", icon: Briefcase },
+  { name: "Legal Skills", href: "/chetna-admin-portfolio/skills", icon: Scale },
+  { name: "Moot Courts & Papers", href: "/chetna-admin-portfolio/projects", icon: FolderGit2 },
+  { name: "Certifications", href: "/chetna-admin-portfolio/certifications", icon: Award },
+  { name: "Education", href: "/chetna-admin-portfolio/education", icon: GraduationCap },
+  { name: "Social Links", href: "/chetna-admin-portfolio/social", icon: LinkIcon },
+  { name: "Contact", href: "/chetna-admin-portfolio/contact", icon: Mail },
+  { name: "Sections", href: "/chetna-admin-portfolio/sections", icon: Layers },
+  { name: "SEO", href: "/chetna-admin-portfolio/seo", icon: Search },
 ];
 
 export default function AdminLayout({ children }: { children: React.ReactNode }) {
@@ -37,11 +37,11 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
       .catch(() => {});
   }, []);
 
-  if (pathname === "/rj-admin-portfolio/login") return <>{children}</>;
+  if (pathname === "/chetna-admin-portfolio/login") return <>{children}</>;
 
   const handleLogout = async () => {
     await fetch("/api/auth/logout", { method: "POST" });
-    router.push("/rj-admin-portfolio/login");
+    router.push("/chetna-admin-portfolio/login");
     router.refresh();
   };
 
@@ -55,10 +55,10 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
       <aside className={`fixed lg:sticky top-0 left-0 z-50 h-screen w-60 bg-white border-r border-slate-200 transform transition-transform duration-200 ease-in-out ${isSidebarOpen ? 'translate-x-0' : '-translate-x-full lg:translate-x-0'} flex flex-col`}>
         <div className="h-14 flex items-center justify-between px-4 border-b border-slate-100">
           <div className="flex items-center gap-2">
-            <div className="w-7 h-7 rounded-lg bg-gradient-to-br from-amber-600 to-amber-700 flex items-center justify-center">
+            <div className="w-7 h-7 rounded-lg bg-gradient-to-br from-emerald-600 to-emerald-700 flex items-center justify-center">
               <Scale className="w-3.5 h-3.5 text-white" />
             </div>
-            <span className="font-bold text-sm text-slate-900">Advocate CMS</span>
+            <span className="font-bold text-sm text-slate-900">Chetna CMS</span>
           </div>
           <button onClick={() => setIsSidebarOpen(false)} className="lg:hidden text-slate-400 hover:text-slate-600 p-1">
             <X className="w-4 h-4" />
@@ -71,9 +71,9 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
             const Icon = item.icon;
             return (
               <Link key={item.name} href={item.href}
-                className={`flex items-center gap-2.5 px-3 py-2 rounded-lg text-sm font-medium transition-colors ${isActive ? "bg-blue-50 text-blue-700" : "text-slate-600 hover:bg-slate-50 hover:text-slate-900"}`}
+                className={`flex items-center gap-2.5 px-3 py-2 rounded-lg text-sm font-medium transition-colors ${isActive ? "bg-emerald-50 text-emerald-700 font-semibold" : "text-slate-600 hover:bg-slate-50 hover:text-slate-900"}`}
                 onClick={() => setIsSidebarOpen(false)}>
-                <Icon className={`w-4 h-4 ${isActive ? "text-blue-600" : "text-slate-400"}`} />
+                <Icon className={`w-4 h-4 ${isActive ? "text-emerald-600" : "text-slate-400"}`} />
                 {item.name}
               </Link>
             );
@@ -110,7 +110,7 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
           </div>
         )}
 
-        <div className="p-4 md:p-8 flex-1">
+        <div className="p-6 md:p-8 max-w-6xl w-full mx-auto flex-1">
           {children}
         </div>
       </main>

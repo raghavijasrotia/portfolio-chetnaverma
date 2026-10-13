@@ -6,7 +6,7 @@ export default function robots(): MetadataRoute.Robots {
       {
         userAgent: '*',
         allow: '/',
-        disallow: ['/rj-admin-portfolio', '/rj-admin-portfolio/', '/api/'],
+        disallow: ['/chetna-admin-portfolio', '/chetna-admin-portfolio/', '/rj-admin-portfolio', '/api/'],
       },
     ],
   };

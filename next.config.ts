@@ -26,7 +26,7 @@ const nextConfig: NextConfig = {
         ],
       },
       {
-        source: '/rj-admin-portfolio/(.*)',
+        source: '/chetna-admin-portfolio/(.*)',
         headers: [
           {
             key: 'X-Robots-Tag',

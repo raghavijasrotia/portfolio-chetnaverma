@@ -26,7 +26,7 @@ export default function LoginPage() {
       const data = await res.json();
 
       if (res.ok && data.success) {
-        router.push('/rj-admin-portfolio');
+        router.push('/chetna-admin-portfolio');
         router.refresh();
       } else {
         setError(data.error || 'Invalid credentials');
@@ -42,11 +42,11 @@ export default function LoginPage() {
     <div className="min-h-screen flex items-center justify-center bg-slate-50">
       <div className="max-w-md w-full p-8 bg-white rounded-2xl shadow-xl border border-slate-100">
         <div className="flex flex-col items-center mb-8">
-          <div className="w-12 h-12 bg-amber-100 rounded-full flex items-center justify-center mb-4">
-            <Lock className="w-6 h-6 text-amber-600" />
+          <div className="w-12 h-12 bg-emerald-100 rounded-full flex items-center justify-center mb-4">
+            <Lock className="w-6 h-6 text-emerald-700" />
           </div>
-          <h1 className="text-2xl font-bold text-slate-900">Advocate CMS Login</h1>
-          <p className="text-sm text-slate-500 mt-2">Manage Legal Portfolio & Chamber Details</p>
+          <h1 className="text-2xl font-bold text-slate-900">Chetna Verma CMS Login</h1>
+          <p className="text-sm text-slate-500 mt-2">Manage Legal Portfolio & Credentials</p>
         </div>
 
         {error && (
@@ -62,7 +62,7 @@ export default function LoginPage() {
               type="text"
               value={username}
               onChange={(e) => setUsername(e.target.value)}
-              className="w-full px-4 py-2 border border-slate-200 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition-all"
+              className="w-full px-4 py-2 border border-slate-200 rounded-lg focus:ring-2 focus:ring-emerald-500 focus:border-emerald-500 outline-none transition-all"
               required
               disabled={isLoading}
             />
@@ -73,7 +73,7 @@ export default function LoginPage() {
               type="password"
               value={password}
               onChange={(e) => setPassword(e.target.value)}
-              className="w-full px-4 py-2 border border-slate-200 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition-all"
+              className="w-full px-4 py-2 border border-slate-200 rounded-lg focus:ring-2 focus:ring-emerald-500 focus:border-emerald-500 outline-none transition-all"
               required
               disabled={isLoading}
             />
@@ -81,7 +81,7 @@ export default function LoginPage() {
           <button
             type="submit"
             disabled={isLoading}
-            className="w-full bg-blue-600 text-white font-medium py-2 px-4 rounded-lg hover:bg-blue-700 focus:ring-4 focus:ring-blue-100 transition-all flex items-center justify-center h-11"
+            className="w-full bg-emerald-600 text-white font-medium py-2 px-4 rounded-lg hover:bg-emerald-700 focus:ring-4 focus:ring-emerald-100 transition-all flex items-center justify-center h-11"
           >
             {isLoading ? <Loader2 className="w-5 h-5 animate-spin" /> : 'Sign In'}
           </button>

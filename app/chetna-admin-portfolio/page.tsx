@@ -45,12 +45,12 @@ export default function AdminDashboard() {
   const status = getEffectiveStatus(data.availability);
 
   const statCards = [
-    { label: 'Chamber Experience', value: `${data.experience.length} records`, icon: Briefcase, color: 'blue', href: '/rj-admin-portfolio/experience' },
-    { label: 'Moot Courts & Papers', value: `${data.projects.length} total`, sub: `${data.projects.filter(p=>p.isFeatured).length} featured`, icon: FolderGit2, color: 'purple', href: '/rj-admin-portfolio/projects' },
-    { label: 'Legal Skills', value: `${data.skills.length} skills`, sub: `${data.skills.filter(s=>s.isVisible).length} visible`, icon: Scale, color: 'cyan', href: '/rj-admin-portfolio/skills' },
-    { label: 'Certifications', value: `${data.certifications.length}`, sub: data.certifications[0]?.name.split('–')[0] || '', icon: Award, color: 'amber', href: '/rj-admin-portfolio/certifications' },
-    { label: 'Education & Academics', value: `${data.education.length} records`, icon: GraduationCap, color: 'green', href: '/rj-admin-portfolio/education' },
-    { label: 'Social / Contact', value: `${data.socialLinks.length} links`, sub: `${data.socialLinks.filter(s=>s.isVisible).length} visible`, icon: LinkIcon, color: 'pink', href: '/rj-admin-portfolio/social' },
+    { label: 'Chamber Experience', value: `${data.experience.length} records`, icon: Briefcase, color: 'blue', href: '/chetna-admin-portfolio/experience' },
+    { label: 'Moot Courts & Papers', value: `${data.projects.length} total`, sub: `${data.projects.filter(p=>p.isFeatured).length} featured`, icon: FolderGit2, color: 'purple', href: '/chetna-admin-portfolio/projects' },
+    { label: 'Legal Skills', value: `${data.skills.length} skills`, sub: `${data.skills.filter(s=>s.isVisible).length} visible`, icon: Scale, color: 'cyan', href: '/chetna-admin-portfolio/skills' },
+    { label: 'Certifications', value: `${data.certifications.length}`, sub: data.certifications[0]?.name.split('–')[0] || '', icon: Award, color: 'amber', href: '/chetna-admin-portfolio/certifications' },
+    { label: 'Education & Academics', value: `${data.education.length} records`, icon: GraduationCap, color: 'green', href: '/chetna-admin-portfolio/education' },
+    { label: 'Social / Contact', value: `${data.socialLinks.length} links`, sub: `${data.socialLinks.filter(s=>s.isVisible).length} visible`, icon: LinkIcon, color: 'pink', href: '/chetna-admin-portfolio/social' },
   ];
 
   const colorMap: Record<string, string> = {
@@ -60,16 +60,16 @@ export default function AdminDashboard() {
   };
 
   const quickLinks = [
-    { name: 'Edit Profile & Photo', href: '/rj-admin-portfolio/profile', icon: User },
-    { name: 'Upload CV / Resume', href: '/rj-admin-portfolio/resume', icon: FileText },
-    { name: 'Manage Sections', href: '/rj-admin-portfolio/sections', icon: Layers },
+    { name: 'Edit Profile & Photo', href: '/chetna-admin-portfolio/profile', icon: User },
+    { name: 'Upload CV / Resume', href: '/chetna-admin-portfolio/resume', icon: FileText },
+    { name: 'Manage Sections', href: '/chetna-admin-portfolio/sections', icon: Layers },
     { name: 'Preview Public Site', href: '/', icon: ExternalLink, target: '_blank' },
   ];
 
   return (
     <div>
       <div className="mb-8">
-        <h1 className="text-2xl font-bold text-slate-900">Advocate Dashboard</h1>
+        <h1 className="text-2xl font-bold text-slate-900">Legal CMS Dashboard</h1>
         <p className="text-slate-500 text-sm mt-1">Welcome back, {data.profile.name}. Here's your legal portfolio overview.</p>
       </div>
 
@@ -89,7 +89,7 @@ export default function AdminDashboard() {
           <p className="text-sm font-medium text-slate-500">Work Mode</p>
           <p className="font-bold text-slate-900">{data.availability.currentWorkMode}</p>
         </div>
-        <Link href="/rj-admin-portfolio/profile" className="shrink-0 text-xs font-semibold text-amber-700 hover:underline">Edit →</Link>
+        <Link href="/chetna-admin-portfolio/profile" className="shrink-0 text-xs font-semibold text-emerald-700 hover:underline">Edit →</Link>
       </div>
 
       {/* Profile Completion */}
