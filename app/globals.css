@@ -1,0 +1,63 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary-50: #f0fdf4;
+  --color-primary-100: #dcfce7;
+  --color-primary-200: #bbf7d0;
+  --color-primary-500: #10b981;
+  --color-primary-600: #059669;
+  --color-primary-700: #047857;
+  --color-primary-800: #065f46;
+  --color-primary-900: #064e3b;
+  --color-primary-950: #022c22;
+
+  --color-navy-950: #041c18;
+  --color-navy-900: #072a24;
+  --color-navy-800: #0f3d35;
+  --color-navy-700: #165b50;
+
+  --color-gold-400: #34d399;
+  --color-gold-500: #10b981;
+  --color-gold-600: #059669;
+  
+  --font-sans: "Inter", system-ui, sans-serif;
+  --font-serif: "Cinzel", "Playfair Display", "Merriweather", Georgia, serif;
+}
+
+@layer base {
+  body {
+    @apply bg-[#f6faf8] text-slate-900 antialiased selection:bg-emerald-200 selection:text-emerald-950;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  }
+}
+
+/* Legal Glassmorphism & Card Styles */
+.glass {
+  @apply bg-white/85 backdrop-blur-md border border-emerald-900/10 shadow-[0_8px_30px_rgb(7,42,36,0.04)];
+}
+
+.glass-card {
+  @apply bg-white border border-stone-200/80 shadow-[0_4px_20px_rgb(7,42,36,0.03)] hover:shadow-[0_12px_32px_rgb(7,42,36,0.09)] hover:border-emerald-400/60 transition-all duration-300;
+}
+
+.legal-crest-border {
+  border-image: linear-gradient(to bottom, #059669, #10b981, transparent) 1;
+}
+
+/* Courtroom Parchment & Grid Background */
+.bg-court-pattern {
+  background-size: 48px 48px;
+  background-image: 
+    linear-gradient(to right, rgba(5, 150, 105, 0.06) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(5, 150, 105, 0.06) 1px, transparent 1px);
+}
+
+/* Lady Justice Emerald Glow */
+.emerald-glow {
+  box-shadow: 0 0 50px -10px rgba(16, 185, 129, 0.25);
+}
+
+/* Smooth Scrolling */
+html {
+  scroll-behavior: smooth;
+}

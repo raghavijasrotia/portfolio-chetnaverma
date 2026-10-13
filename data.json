@@ -1,0 +1,451 @@
+{
+  "profile": {
+    "name": "Chetna Verma",
+    "title": "B.A. LL.B Scholar & Legal Intern",
+    "bio": "Diligent and research-driven law student currently pursuing 1st Year of B.A. LL.B at Chandigarh Group of Colleges (CGC University), Mohali. Completed Senior Secondary from Mount Litera Zee School (60%) and High School from Kendriya Vidyalaya (KV) Kathua (57%). Passionate about Constitutional Law, Criminal & Civil Law, Legal Research, and Courtroom Advocacy. Actively seeking foundational legal internships under Advocates, Chambers, or Law Firms.",
+    "profileImage": "/images/chetna-avatar.jpg",
+    "location": "Mohali / Chandigarh & Kathua, India",
+    "email": "chetnaverma.law@gmail.com",
+    "phone": "+91 98765 43210",
+    "whatsapp": "919876543210",
+    "website": "",
+    "workMode": "On-site / Hybrid",
+    "academicBadge": "B.A. LL.B (1st Year) · CGC Mohali",
+    "seekingBannerText": "Actively Seeking Legal Internship · Chamber / Firm Trainee",
+    "seekingBannerDegree": "B.A. LL.B 1st Year",
+    "showSeekingBanner": true,
+    "aboutHeadline": "Dedicated to Constitutional Principles, Rigorous Research & Advocacy",
+    "showAcademicPedigree": true,
+    "showHeroStats": true,
+    "stats": [
+      {
+        "id": "stat-1",
+        "value": "1st Year",
+        "label": "B.A. LL.B Scholar",
+        "isVisible": true
+      },
+      {
+        "id": "stat-2",
+        "value": "CGC Mohali",
+        "label": "Law School",
+        "isVisible": true
+      },
+      {
+        "id": "stat-3",
+        "value": "Legal Research",
+        "label": "SCC & Case Precedents",
+        "isVisible": true
+      },
+      {
+        "id": "stat-4",
+        "value": "20+",
+        "label": "Legal Competencies",
+        "isVisible": true
+      }
+    ]
+  },
+  "availability": {
+    "status": "open_to_work",
+    "statusMode": "manual",
+    "lastWorkingDay": "",
+    "availableFrom": "2026-10-01",
+    "openTo": [
+      "Legal Internship",
+      "Litigation Trainee",
+      "Judicial Clerkship",
+      "Corporate Legal Intern",
+      "Legal Research Intern"
+    ],
+    "currentWorkMode": "Available for Legal Internships"
+  },
+  "experience": [
+    {
+      "id": "exp-1",
+      "company": "Legal Aid Clinic & Pro Bono Cell, CGC University Mohali",
+      "position": "Student Legal Volunteer & Research Associate",
+      "startDate": "2024-08-01",
+      "isCurrent": true,
+      "description": "Participating actively in university legal literacy drives, assisting with basic legal documentation, and conducting case-law research under faculty guidance.",
+      "responsibilities": [
+        "Conduct foundational legal research on consumer protection, fundamental rights, and civil remedies using SCC Online and Indian Kanoon.",
+        "Assist senior law scholars and faculty in cataloging citizen legal queries and preparing plain-language legal awareness briefs for community outreach.",
+        "Attend interactive legal workshops and mock trial advocacy sessions organized by the faculty and visiting High Court advocates.",
+        "Draft preliminary representations and summary notes on statutory rights for rural legal literacy camps in Mohali."
+      ],
+      "technologies": [
+        "SCC Online",
+        "Indian Kanoon",
+        "Constitutional Rights",
+        "Legal Aid Outreach",
+        "Case Summary Drafting"
+      ],
+      "location": "Mohali, Punjab",
+      "workMode": "Hybrid",
+      "displayOrder": 1,
+      "isVisible": true
+    },
+    {
+      "id": "exp-2",
+      "company": "Chamber Observational Training, District Courts",
+      "position": "Court Proceedings Observer & Trainee",
+      "startDate": "2024-06-01",
+      "endDate": "2024-07-15",
+      "isCurrent": false,
+      "description": "Underwent court observation training, familiarizing with daily court procedures, case filing registries, and courtroom proceedings.",
+      "responsibilities": [
+        "Observed daily proceedings in civil and criminal courts, taking structured notes on examinations and preliminary arguments.",
+        "Familiarized with courtroom filing registries, including vakalatnama submission, caveat petitions, and application tracking.",
+        "Prepared case briefs summarizing factual matrices and legal questions in ongoing civil suits.",
+        "Maintained chamber case diary and assisted in organizing precedent files for upcoming hearings."
+      ],
+      "technologies": [
+        "Courtroom Procedure",
+        "Vakalatnama & Filing",
+        "Case Briefing",
+        "Civil & Criminal Courts",
+        "Precedent Indexing"
+      ],
+      "location": "Kathua / Chandigarh",
+      "workMode": "On-site",
+      "displayOrder": 2,
+      "isVisible": true
+    }
+  ],
+  "skills": [
+    {
+      "id": "s-const",
+      "name": "Constitutional Law of India (Fundamental Rights & Writs)",
+      "category": "Substantive Law",
+      "level": "Proficient",
+      "displayOrder": 1,
+      "isVisible": true
+    },
+    {
+      "id": "s-bns",
+      "name": "Bharatiya Nyaya Sanhita (BNS / Penal Code)",
+      "category": "Substantive Law",
+      "level": "Proficient",
+      "displayOrder": 2,
+      "isVisible": true
+    },
+    {
+      "id": "s-bnss",
+      "name": "Bharatiya Nagarik Suraksha Sanhita (BNSS / Procedure)",
+      "category": "Substantive Law",
+      "level": "Intermediate",
+      "displayOrder": 3,
+      "isVisible": true
+    },
+    {
+      "id": "s-contract",
+      "name": "Law of Contracts & Specific Relief Act",
+      "category": "Substantive Law",
+      "level": "Advanced",
+      "displayOrder": 4,
+      "isVisible": true
+    },
+    {
+      "id": "s-torts",
+      "name": "Law of Torts & Consumer Protection Act 2019",
+      "category": "Substantive Law",
+      "level": "Advanced",
+      "displayOrder": 5,
+      "isVisible": true
+    },
+    {
+      "id": "s-family",
+      "name": "Family & Matrimonial Law",
+      "category": "Substantive Law",
+      "level": "Intermediate",
+      "displayOrder": 6,
+      "isVisible": true
+    },
+    {
+      "id": "s-scconline",
+      "name": "SCC Online WebEdition",
+      "category": "Legal Research & Databases",
+      "level": "Advanced",
+      "displayOrder": 7,
+      "isVisible": true
+    },
+    {
+      "id": "s-manupatra",
+      "name": "Manupatra Legal Database",
+      "category": "Legal Research & Databases",
+      "level": "Proficient",
+      "displayOrder": 8,
+      "isVisible": true
+    },
+    {
+      "id": "s-kanoon",
+      "name": "Indian Kanoon & LiveLaw",
+      "category": "Legal Research & Databases",
+      "level": "Expert",
+      "displayOrder": 9,
+      "isVisible": true
+    },
+    {
+      "id": "s-citation",
+      "name": "Legal Citation & Precedent Analysis (Bluebook)",
+      "category": "Legal Research & Databases",
+      "level": "Advanced",
+      "displayOrder": 10,
+      "isVisible": true
+    },
+    {
+      "id": "s-notice",
+      "name": "Legal Notices & Formal Demand Letters",
+      "category": "Legal Drafting & Pleading",
+      "level": "Proficient",
+      "displayOrder": 11,
+      "isVisible": true
+    },
+    {
+      "id": "s-affidavit",
+      "name": "Affidavits, Applications & Vakalatnama",
+      "category": "Legal Drafting & Pleading",
+      "level": "Advanced",
+      "displayOrder": 12,
+      "isVisible": true
+    },
+    {
+      "id": "s-plaint",
+      "name": "Case Briefs & Synopsis of Dates and Events",
+      "category": "Legal Drafting & Pleading",
+      "level": "Advanced",
+      "displayOrder": 13,
+      "isVisible": true
+    },
+    {
+      "id": "s-moot",
+      "name": "Moot Court Research & Memorial Drafting",
+      "category": "Courtroom & Advocacy",
+      "level": "Advanced",
+      "displayOrder": 14,
+      "isVisible": true
+    },
+    {
+      "id": "s-counselling",
+      "name": "Fact Analysis & Client Interviewing",
+      "category": "Courtroom & Advocacy",
+      "level": "Proficient",
+      "displayOrder": 15,
+      "isVisible": true
+    },
+    {
+      "id": "s-ecourts",
+      "name": "e-Courts Services & Case Status Tracking",
+      "category": "Practice & Digital Tools",
+      "level": "Expert",
+      "displayOrder": 16,
+      "isVisible": true
+    },
+    {
+      "id": "s-msoffice",
+      "name": "Legal Documentation (MS Word, Excel & PDF Tools)",
+      "category": "Practice & Digital Tools",
+      "level": "Expert",
+      "displayOrder": 17,
+      "isVisible": true
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj-1",
+      "name": "Intra-University Moot Court Competition — Constitutional Law Memorial",
+      "shortDescription": "Drafted comprehensive petitioner memorial on Fundamental Rights & Digital Surveillance under Article 21.",
+      "detailedDescription": "Participated in the university moot court simulation examining constitutional validity of digital surveillance under Article 21. Researched authoritative Supreme Court precedents including K.S. Puttaswamy and drafted the statement of jurisdiction, issues, and arguments advanced.",
+      "technologies": [
+        "Constitutional Law",
+        "Article 21",
+        "Moot Court Memorial",
+        "SCC Online",
+        "Oral Advocacy"
+      ],
+      "architectureHighlights": [
+        "Authored a structured 30-page petitioner memorial following official moot court rules",
+        "Researched 45+ constitutional judgments and judicial doctrines",
+        "Presented oral submissions in preliminary and quarter-final rounds"
+      ],
+      "githubUrl": "",
+      "liveUrl": "",
+      "isFeatured": true,
+      "isVisible": true,
+      "displayOrder": 1
+    },
+    {
+      "id": "proj-2",
+      "name": "Analytical Paper: Key Shifts from IPC to Bharatiya Nyaya Sanhita (BNS)",
+      "shortDescription": "Comparative study examining reforms, community service clauses, and electronic evidence under new criminal laws.",
+      "detailedDescription": "Compiled an in-depth research paper outlining key procedural and substantive changes brought by the Bharatiya Nyaya Sanhita and Bharatiya Nagarik Suraksha Sanhita, presented at the CGC Law Students Symposium.",
+      "technologies": [
+        "BNS",
+        "BNSS",
+        "Criminal Law Reforms",
+        "Evidence Law",
+        "Statutory Analysis"
+      ],
+      "architectureHighlights": [
+        "Comparative mapping of pivotal sections between IPC and BNS",
+        "Analyzed newly introduced provisions for community service and organized crimes",
+        "Presented before faculty panel and awarded Commendation Certificate"
+      ],
+      "githubUrl": "",
+      "liveUrl": "",
+      "isFeatured": true,
+      "isVisible": true,
+      "displayOrder": 2
+    },
+    {
+      "id": "proj-3",
+      "name": "Rural Legal Literacy & Citizen Rights Drive (Mohali)",
+      "shortDescription": "Community legal aid initiative raising awareness on consumer protection and free legal aid under Article 39A.",
+      "detailedDescription": "Active student volunteer in the CGC University Legal Aid Clinic. Coordinated community workshops informing local residents about grievance redressal mechanisms, consumer dispute filing, and DLSA legal aid entitlements.",
+      "technologies": [
+        "Legal Aid",
+        "Consumer Protection",
+        "Article 39A",
+        "DLSA Mohali",
+        "Public Awareness"
+      ],
+      "architectureHighlights": [
+        "Assisted in coordinating legal awareness sessions for 80+ local citizens",
+        "Helped draft simplified bilingual pamphlets explaining legal remedies",
+        "Recognized by Faculty Convenor for dedicated volunteer participation"
+      ],
+      "githubUrl": "",
+      "liveUrl": "",
+      "isFeatured": true,
+      "isVisible": true,
+      "displayOrder": 3
+    }
+  ],
+  "certifications": [
+    {
+      "id": "cert-1",
+      "name": "Foundational Legal Research & Citation Methodology",
+      "level": "Certified Student Researcher",
+      "organization": "SCC Online & Legal Academy",
+      "credentialId": "SCC-FND-2024-518",
+      "issueDate": "2024-04-10",
+      "isVisible": true,
+      "displayOrder": 1
+    },
+    {
+      "id": "cert-2",
+      "name": "Certificate Course in Constitutional Law & Fundamental Rights",
+      "level": "Academic Certificate",
+      "organization": "Law School Extension Initiative",
+      "credentialId": "CONST-LAW-2024-112",
+      "issueDate": "2024-08-15",
+      "isVisible": true,
+      "displayOrder": 2
+    }
+  ],
+  "education": [
+    {
+      "id": "edu-1",
+      "degree": "B.A. LL.B (5-Year Integrated Bachelor of Law) — 1st Year",
+      "institution": "Chandigarh Group of Colleges (CGC University), Mohali",
+      "location": "Mohali, Punjab, India",
+      "startYear": "2024",
+      "endYear": "Present",
+      "grade": "1st Year Scholar",
+      "description": "Pursuing 5-year integrated law degree with comprehensive coursework in Constitutional Law, Law of Torts, Law of Contracts, Criminal Jurisprudence (BNS/BNSS), and Legal Methods. Active student member of the University Legal Aid Clinic and Moot Court Society.",
+      "isVisible": true,
+      "displayOrder": 1
+    },
+    {
+      "id": "edu-2",
+      "degree": "Senior Secondary (Class XII - CBSE)",
+      "institution": "Mount Litera Zee School",
+      "location": "Kathua, Jammu & Kashmir",
+      "startYear": "2022",
+      "endYear": "2024",
+      "grade": "60%",
+      "description": "Completed Class 12th higher secondary schooling with 60% aggregate under CBSE. Active in inter-school debate competitions, literary societies, and youth seminars.",
+      "isVisible": true,
+      "displayOrder": 2
+    },
+    {
+      "id": "edu-3",
+      "degree": "Secondary School Examination (Class X - CBSE)",
+      "institution": "Kendriya Vidyalaya (KV), Kathua",
+      "location": "Kathua, Jammu & Kashmir",
+      "startYear": "2020",
+      "endYear": "2022",
+      "grade": "57%",
+      "description": "Completed Class 10th secondary schooling with 57% aggregate under Central Board of Secondary Education (CBSE) with participation in extracurricular activities and cultural forums.",
+      "isVisible": true,
+      "displayOrder": 3
+    }
+  ],
+  "socialLinks": [
+    {
+      "id": "soc-1",
+      "platform": "LinkedIn",
+      "label": "LinkedIn Profile",
+      "url": "https://linkedin.com",
+      "isVisible": true,
+      "displayOrder": 1
+    },
+    {
+      "id": "soc-2",
+      "platform": "Email",
+      "label": "Email Inquiries",
+      "url": "mailto:chetnaverma.law@gmail.com",
+      "isVisible": true,
+      "displayOrder": 2
+    },
+    {
+      "id": "soc-3",
+      "platform": "WhatsApp",
+      "label": "WhatsApp Message",
+      "url": "https://wa.me/919876543210",
+      "isVisible": true,
+      "displayOrder": 3
+    }
+  ],
+  "contact": {
+    "email": "chetnaverma.law@gmail.com",
+    "emailSubject": "Inquiry regarding Legal Internship Opportunity — Chetna Verma",
+    "emailBody": "Dear Advocate / Hiring Team,\n\nI came across your practice and would like to inquire about legal internship opportunities for a dedicated 1st-year B.A. LL.B student at CGC University, Mohali...",
+    "phone": "+91 98765 43210",
+    "whatsapp": "919876543210",
+    "whatsappEnabled": true,
+    "emailEnabled": true,
+    "phoneEnabled": true,
+    "location": "CGC University Campus, Mohali, Punjab & Kathua, J&K, India",
+    "ctaText": "Inquire Regarding Legal Internship / Chamber Opportunities"
+  },
+  "siteSettings": {
+    "sections": {
+      "hero": true,
+      "about": true,
+      "experience": true,
+      "skills": true,
+      "projects": true,
+      "certifications": true,
+      "education": true,
+      "resume": true,
+      "contact": true,
+      "social": true
+    },
+    "resumeUrl": "",
+    "seo": {
+      "siteUrl": "https://portfolio-chetnaverma.vercel.app",
+      "title": "Chetna Verma | B.A. LL.B Scholar & Legal Intern | CGC University Mohali",
+      "description": "Official legal portfolio of Chetna Verma, B.A. LL.B 1st year law scholar at CGC University Mohali, schooling from Mount Litera Zee School (60%) & KV Kathua (57%). Actively seeking legal internships in Litigation, Legal Research & Corporate Law.",
+      "keywords": "Chetna Verma, Legal Intern, Law Student, B.A. LL.B, CGC University Mohali, Mount Litera Kathua, KV Kathua, Legal Research, SCC Online, Indian Advocate Portfolio, Chandigarh High Court Intern",
+      "author": "Chetna Verma",
+      "robotsIndex": true,
+      "robotsFollow": true,
+      "ogTitle": "Chetna Verma | B.A. LL.B Scholar & Legal Intern Portfolio",
+      "ogDescription": "B.A. LL.B 1st year candidate at CGC University Mohali. Actively seeking legal internships in Litigation and Corporate Law.",
+      "ogImage": "/images/chetna-avatar.jpg",
+      "twitterTitle": "Chetna Verma | B.A. LL.B Scholar & Legal Intern",
+      "twitterDescription": "Law scholar at CGC University Mohali. Seeking legal internships in Litigation & Legal Research.",
+      "twitterImage": "/images/chetna-avatar.jpg"
+    }
+  }
+}
