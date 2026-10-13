@@ -5,7 +5,7 @@ import fs from 'fs';
 import path from 'path';
 
 const LOCAL_FILE_PATH = path.join(process.cwd(), 'data.json');
-const REDIS_KEY = 'portfolio_data';
+const REDIS_KEY = process.env.REDIS_KEY || 'chetna_portfolio_data';
 
 function cleanEnv(val: string | undefined): string | undefined {
   if (!val) return undefined;
